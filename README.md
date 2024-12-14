@@ -2,6 +2,10 @@
 
 Welcome to the Diffusion Policy project for deploying on Foam Hand and XArm. Below is a guide to help you get started with running this project.
 
+## Big Picture
+
+For more details on the project, please refer to the poster available on Google Drive: https://drive.google.com/file/d/1hYUVsxyhiXEtXabWOoytsa8HlRqqGbKX/view?usp=drive_link.
+
 ## Project Structure
 
 - `/diffusion_policy/.venv`  
@@ -47,6 +51,4 @@ To run model inference:
 
 Inference output data will be saved automatically to the `save/` folder. You can adjust the `save_flag` and `record_flag` in the `inference.ipynb` notebook to control whether the ROS bag is saved.
 
-## Additional Information
 
-For more details on the project, please refer to the poster available on Google Drive: https://drive.google.com/file/d/1hYUVsxyhiXEtXabWOoytsa8HlRqqGbKX/view?usp=drive_link.
